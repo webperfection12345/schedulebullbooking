@@ -1,1 +1,491 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+.Transfer-edit{
+        margin-right: 10px;
+}
+section.section-bg-images {
+    max-width: 100%;
+    position: relative;
+}
+/*.section-bg-images{
+	background-image: url(../img/stephan-seeber-6WUoaJiCVNc-unsplash.jpg);
+	width: 100%;
+	background-size: cover;
+	padding: 30px 10px;
+	box-sizing: border-box;
+	background-position: center;
+}*/
+.form-top-button-return{
+    background-color: #ffffff !important;
+    color: #000000 !important;
+       padding: 15px 30px !important;
+    border:1px solid #3E3434;
+    border-radius: 15px 15px 0px 0px !important;
+    font-weight: 700 !important;
+     border-bottom:0px;
+}
+.form-top-button-onway {
+    background-color: white !important;
+    color:#000000 !important;
+       padding: 15px 24px !important;
+    border:1px solid #3E3434;
+    border-radius: 15px 15px 0px 0px !important;
+    font-weight: 700 !important;
+    border-bottom:0px;
+}
+.form-bg-color{
+	background-color: #3E3434 !important;
+	padding: 40px 15px !important;
+	border-radius: 0px 30px 30px 30px;
+}
+.form-input{
+	position: relative;
+}
+.form-input i{
+	   position: absolute;
+    right: 25px;
+    color:#DB1212;
+}
+input:focus{
+ outline: none;
+}
+.book-now-button {
+    padding: 8px 40px !important;
+    border: none;
+    border-radius: 5px !important;
+    background-color: #DB1212 !important;
+    color: white !important;
+   
+}
+.book-now-button:hover{
+    background-color:white !important;
+    color:#DB1212 !important;
+    
+}
+.border-input{
+	border-right: 1px solid #00bfff7a;
+}
+.section-form-main{
+	padding: 30px 0px;
+	box-sizing: border-box;
+	margin-top: 10px;
+}
+select:focus{
+ outline: none;
+}
+.form-select-1-a {
+    display: block;
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    border:none;
+    appearance: none;
+    background-size: 0px;
+    padding: 8px;
+    background-color: transparent;
+    z-index: 999;
+    cursor: pointer;
+}
+form.bookingFrom01 {
+    position: relative;
+}
+.loder-img {
+    height: 100%;
+    width: 100%;
+    background-color: #352e2f4a;
+    margin: auto;
+    position: absolute;
+    left: 0; 
+    top: -0.1%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.loder-img img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    border-radius:50%;
+}
+.form-price{
+	font-size:20px;
+}
+.bbactive {
+    background-color: #3E3434 !important;
+    color: #ffffff !important;
+    font-weight: 700 !important;
+}
+.price-for-private{
+    margin:0px;
+     text-transform: uppercase;
+    font-weight: 300;
+    word-spacing: 2px;
+}
+.redborder {
+    border: 1px solid red !important;
+}
+/*=======================fom-----===second==============*/
+.list-style9 {
+    list-style: none;
+    padding: 0;
+}
+.list-style9 li {
+    position: relative;
+    padding: 0 0 15px 0;
+    margin: 0 0 15px 0;
+    border-bottom: 1px dashed rgba(0, 0, 0, 0.1);
+}
+section.main-form-booked{
+	max-width:100%;
+	background: white;
+}
+.details-passenger{
+	border-bottom: 1px dotted #ced4da;
+}
+/*input.form-control,select.form-select-1-a-second {*/
+/*    padding: 0.875rem 0.75rem !important;*/
+/*}*/
+input[type=radio] {
+  accent-color:#DB1212 !important;
+}
+.form-user-name{
+	position: relative;
+}
+.form-user-name i{
+	position: absolute;
+    top: 19px;
+    right: 25px;
+    color:#DB1212;
+}
+.form-select-1-a-second {
+    display: block;
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    appearance: none;
+    background-size: 0px;
+    padding: 8px;
+    border: 1px solid #ced4da;
+}
+.second-label{
+	color: #000000;
+    font-size: 20px;
+}
 
+.small{
+	font-size:12px !important;
+}
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900&display=swap');
+html,body {
+    font-family: 'Raleway', sans-serif;  
+}
+.thankyou-page ._header {
+    background: #fee028;
+    padding: 100px 30px;
+    text-align: center;
+    background: #fee028 url(https://codexcourier.com/images/main_page.jpg) center/cover no-repeat;
+}
+.thankyou-page ._header .logo {
+    max-width: 200px;
+    margin: 0 auto 50px;
+}
+.thankyou-page ._header .logo img {
+    width: 100%;
+}
+.thankyou-page ._header h1 {
+    font-size: 65px;
+    font-weight: 800;
+    color: white;
+    margin: 0;
+}
+.thankyou-page ._body {
+    margin: -70px 0 30px;
+}
+.thankyou-page ._body ._box {
+    margin: auto;
+    max-width: 80%;
+    padding: 50px;
+    background: white;
+    border-radius: 3px;
+    box-shadow: 0 0 35px rgba(10, 10, 10,0.12);
+    -moz-box-shadow: 0 0 35px rgba(10, 10, 10,0.12);
+    -webkit-box-shadow: 0 0 35px rgba(10, 10, 10,0.12);
+}
+.thankyou-page ._body ._box h2 {
+    font-size: 32px;
+    font-weight: 600;
+    color: #4ab74a;
+}
+.thankyou-page ._footer {
+    text-align: center;
+    padding: 50px 30px;
+}
+
+.thankyou-page ._footer .btn {
+    background: #4ab74a;
+    color: white;
+    border: 0;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 0;
+    letter-spacing: 0.8px;
+    padding: 20px 33px;
+    text-transform: uppercase;
+}
+
+.thankyou-page {
+    max-width: 100% !important;
+}
+.form-control:focus {color: #212529;background-color: #fff;border-color: red;outline: 0;box-shadow: 0 0 0 0.05rem #dc3545;}
+ .form-control {
+    background-color:transparent !important;
+    z-index: 999;
+    cursor: pointer;
+}
+.main-form-booked .form-control{padding: 0.875rem 0.75rem;}
+
+/*-----------7--11--2020------media----*/
+@media only screen and (max-width: 600px) {
+    
+ .trensfer-form{
+     padding:0px;
+ }
+
+.form-top-button-return{
+    padding: 5px 10px;
+    font-weight: 500;
+}
+.form-select-1-a {
+    font-size: 12px;
+    font-weight: 700;
+}
+ .form-input i {
+    position: absolute;
+    right: 4px;
+    font-size: 12px;
+}
+.outbound-form {
+    font-size: 12px;
+    font-weight: 700;
+}
+.price-for-private{
+    font-size:17px;
+   padding: 5px;
+       margin: 0px;
+}
+.form-price {
+    font-size: 15px;
+}
+.promo-code{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+}
+
+
+/****************** 06-01-2023 *****************************/
+
+.form-sub-heading p {
+    color: #ffffff;
+    padding: 10px 0px 10px 0px;
+    font-size: 1rem;
+    margin-bottom: 0px;
+    
+    
+}
+.bbactive {
+    margin-right: 20px;
+}
+
+.form-control[readonly] {
+    background-color: #ffffff;
+    opacity: 1;
+}
+.form-top-button-return {
+    margin-right: 20px;
+}
+
+/*input#save, input#save2 {
+    position: absolute;
+    top: 330px;
+    right: 4px;
+    z-index: 999;
+    padding: 2px 5px;
+}
+
+.flatpickr-calendar.open {
+    top: 669.109px;
+    left: 807.5px;
+    right: auto;
+    z-index: 20 !important;
+}*/
+.w-66\.66 {
+    width: 66.66%;
+}
+
+/************* Modal Popup ***********************/
+.thankyou-page ._footer .btn {
+    color: #fff !important;
+}
+.wp-block-post-content a:where(:not(.wp-element-button)) {
+    color: #345c0000 !important;
+}
+a.booking-edit {
+    color: #fff !important;
+}
+.modal-body.modal {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: #8f8f8feb;
+    /* width: 100%; */
+    max-width: 100%;
+    z-index: 99;
+} 
+.section-model.active-modal {
+    max-width: 1170px !important;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    background-color: #3e3434;
+    border-radius: 5px;
+}
+.section-model .cancel {
+    position: absolute;
+    top: -16px;
+    right: 0px;
+    background-color: #d9d9d9;
+    border-radius: 50%;
+    height: 30px;
+    font-size: 16px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.form-input i {
+    position: absolute;
+    right: 5px;
+    color: #DB1212;
+    font-size: 18px;
+}
+ 
+.section-model select {
+    font-size: 16px;
+}
+.section-model .form-input input {
+    font-size: 16px;
+} 
+ 
+.modal-body.modal .form-sub-heading p { 
+    text-align: left;
+}
+
+.cancel .fa-solid.fa-circle-xmark {
+    color: #0c0b0b;
+    font-size: 30px;
+}
+
+.border-btm {
+    border-bottom: 1px solid #fff;
+    padding: 0 15px;
+}
+
+.border-btm button.bbactive {
+    border: 1px solid #fff;
+}
+
+select {
+    color: #6c757d !important;
+}
+
+/************* Modal Popup end ***********************/ 
+ 
+/****************** end 06-01-2023 *****************************/
+@media only screen and (max-width: 767px) {
+.modal-body select {
+    font-size:12px;
+}
+.modal-body .section-model .form-input input {
+    font-size: 12px;
+}
+
+.px-2 {
+    padding-right: 0rem !important;
+    padding-left: 0rem !important;
+}
+.form-input i {
+    right: 4px; 
+    font-size: 12px;
+}
+.px-3 {
+    padding-right: 0rem !important;
+    padding-left: 0rem !important;
+}
+.border-btm button.bbactive {
+    font-size: 20px;
+}
+
+.form-top-button-onway {
+    padding: 18px 23px;
+    font-size: 20px;
+}
+.update-bookings {
+    margin-bottom: 30px;
+}
+}
+
+@media only screen and (max-width: 500px) {
+ .second-form-inpu{
+     width: 100%;
+ }
+ .form-pharhraph-overflow{
+     font-size: 15px;
+    text-align: justify;
+ }
+ }
+@media only screen and (max-width: 800px) {
+    .main-form-booked .form-control.rounded-0 { font-size: 14px;}
+    .xdsoft_datetimepicker.xdsoft_noselect.xdsoft_ {left: 0 !important;}
+.media-icon{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.media-text-p{    width:100%;}
+.form-bg-color select{background-color: #ffffff00;color:#6c757d;}     
+.form-sub-heading p { padding: 15px 0px 0px 0px;margin-bottom: 0px; }
+ }
+ 
+ /****************** 06-01-2023 *****************************/
+@media(max-width:924px){
+.form-sub-heading p{font-size: 13px;}}
+@media(max-width:524px){.form-sub-heading p{font-size:10px;}}
+@media(max-width:1170px){
+    .trensfer-form{
+        width:100%;
+    }
+.for-mobile {padding-top: 15px;}
+.for-promo{padding-top:14px;}
+}
+
+/****************** end 06-01-2023 *****************************/
